@@ -8,7 +8,7 @@ pipeline {
         stage('Clone repository') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/<user>/<repo>.git'
+                url: 'https://github.com/notaprocoder69/PES1UG22CS340_Jenkins'
             }
         }
         stage('Install dependencies') {
